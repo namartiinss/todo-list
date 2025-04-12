@@ -1,0 +1,42 @@
+.info {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 4rem;
+}
+
+.created, .done {
+    display: flex;
+    gap: 8;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.pDone {
+    color: var(--blue);
+    font-family: 'inter';
+    font-weight: bold;
+    font-size: 14px;
+}
+
+span {
+    display: block;
+    background-color: var(--gray-400);
+    color: var(--gray-100);
+    text-align: center;
+    border-radius: 50%;
+    padding: 2px 8px;
+
+    font-family: 'inter';
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.pDonePurple {
+    color: var(--purple);
+    font-family: 'inter';
+    font-weight: bold;
+    font-size: 14px;
+}

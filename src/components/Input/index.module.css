@@ -1,0 +1,14 @@
+.inputDefault {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: var(--gray-500);
+    color: var(--gray-100);
+    border: 1px solid var(--gray-700);
+    transition: .2s linear;
+}
+
+.inputDefault:focus {
+    outline: none;
+    border: 1px solid var(--purple-dark);
+}
