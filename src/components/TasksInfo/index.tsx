@@ -1,12 +1,16 @@
+import { CountTask } from '@/types/app';
 import styles from './index.module.css'
 
-function TasksInfos() {
+
+
+function TasksInfos({likeCount}: CountTask) {
+
   return (
     <div className={styles.containerTasks}>
         <div className={styles.info}>
-            <div className={styles.created}>
-                <p className={styles.pDone}>Tarefas Concluídas</p>
-                <span>0</span>
+            <div className={styles.done}>
+                <p className={styles.pDone}>Tarefas criadas</p>
+                <span>{likeCount}</span>
             </div>
             <div className={styles.done}>
                 <p className={styles.pDonePurple}>Concluídas</p>

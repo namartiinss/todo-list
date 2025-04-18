@@ -1,3 +1,10 @@
+.containerInput{
+    display: flex;
+    position: relative;
+    margin-top: -27px;
+    gap: 8px;
+}
+
 .inputDefault {
     width: 100%;
     padding: 1rem;
@@ -11,4 +18,24 @@
 .inputDefault:focus {
     outline: none;
     border: 1px solid var(--purple-dark);
+}
+
+.btnCreate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px;
+    background-color: var(--blue-dark);
+    color: var(--gray-100);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .2s linear;
+
+    font-family: 'inter';
+    font-weight: 700;
+}
+
+.btnCreate:hover {
+    background-color: var(--blue);
 }
